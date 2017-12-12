@@ -3,9 +3,7 @@
 A simple Wishlist implementation for Laravel 5.*.*.
 
 [![Latest Stable Version](https://poser.pugx.org/bhavinjr/laravel-wishlist/v/stable)](https://packagist.org/packages/bhavinjr/laravel-wishlist)
-
 [![Total Downloads](https://poser.pugx.org/bhavinjr/laravel-wishlist/downloads)](https://packagist.org/packages/bhavinjr/laravel-wishlist)
-
 [![License](https://poser.pugx.org/bhavinjr/laravel-wishlist/license)](https://packagist.org/packages/bhavinjr/laravel-wishlist)
 
 ## Installation
