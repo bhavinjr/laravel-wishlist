@@ -1,0 +1,35 @@
+{
+    "name": "bhavinjr/laravel-wishlist",
+    "description": "wishlist for laravel 5.*.*",
+    "keywords": [
+      "laravel wishlist", "wishlist laravel", "wishlist","ecommerce laravel wishlist", "laravel ecommerce"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhavin Rudani",
+            "email": "bhavinrudani94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhavinjr\\Wishlist\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bhavinjr\\Wishlist\\Providers\\WishlistServiceProvider"
+            ],
+            "aliases": {
+                "Wishlist": "Bhavinjr\\Wishlist\\Facades\\Wishlist"
+            }
+        }
+    }
+}
