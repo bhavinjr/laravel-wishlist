@@ -59,7 +59,7 @@ return [
 
 after update `config/wishlist.php` file.
 ```shell
-php artisan migrate
+php artisan config:cache
 ```
 
 ## Usage
