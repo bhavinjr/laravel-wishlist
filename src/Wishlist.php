@@ -39,6 +39,11 @@ class Wishlist
     	$this->instance->ofUser($user_id)->delete();
     }
 
+    public function removeByProduct($product_id,$user_id)
+    {
+        $this->getWishlistItem($product_id,$user_id)->delete();
+    }
+
     protected function create($product_id,$user_id)
     {
     	$matchThese	=   ['product_id'   =>  $product_id,'user_id' => $user_id];

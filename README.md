@@ -100,6 +100,14 @@ To remove users all wishlist item, specify the user_id.
 Wishlist::removeUserWishlist(1);
 ```
 
+### Wishlist::removeByProduct()
+
+To remove particular product using product_id, specify the product_id and user_id respectively.
+
+```php
+Wishlist::removeByProduct(15, 1);
+```
+
 
 ### Wishlist::count()
 
