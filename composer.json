@@ -2,7 +2,7 @@
     "name": "bhavinjr/laravel-wishlist",
     "description": "wishlist for laravel 5.*.*",
     "keywords": [
-      "laravel wishlist", "wishlist laravel", "wishlist","ecommerce laravel wishlist", "laravel ecommerce"
+      "laravel", "laravel wishlist", "wishlist laravel", "wishlist","ecommerce laravel wishlist", "laravel ecommerce"
     ],
     "type": "library",
     "license": "MIT",
